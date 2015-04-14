@@ -1,0 +1,114 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NavigationDrawerList">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@color/appBackgroundWhite</item>
+    </style>
+
+    <!-- NAVIGATION DRAWER -->
+    <style name="NavigationDrawerListDivider">
+        <item name="android:background">@color/sesjaFirst</item>
+    </style>
+    <style name="NavigationDrawerListHeader">
+        <!--<item name="android:layout_marginBottom">@dimen/navigation_drawer_list_header_margin_bottom</item>-->
+        <item name="android:background">@color/backgroundDrawerHeader</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">1</item>
+    </style>
+    <style name="NavigationDrawerListItem" >
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/navigation_drawer_list_item_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/navigation_drawer_list_item_margin_top</item>
+    </style>
+    <style name="NavigationDrawerListItemIcon" >
+        <item name="android:layout_marginBottom">@dimen/navigation_drawer_list_item_icon_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/navigation_drawer_list_item_icon_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/navigation_drawer_list_item_icon_margin_top</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="NavigationDrawerListItemTitle" >
+        <item name="android:textColor">@color/fontColorSecondary</item>
+        <item name="android:paddingBottom">@dimen/navigation_drawer_list_item_title_margin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/navigation_drawer_list_item_title_text</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="NavigationDrawerListHeaderImage"></style>
+
+    <!-- SPEAKERS -->
+    <style name="ListSpeakers">
+        <item name="android:background">@color/appBackgroundWhite</item>
+    </style>
+    <style name="SpeakerCardImage">
+    </style>
+    <style name="SpeakerCardTextParent">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="SpeakerCardName">
+        <item name="android:textSize">@dimen/speaker_item_name_text</item>
+        <item name="android:textColor">@color/sesjaFirst</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SpeakerCardSurname">
+        <item name="android:textSize">@dimen/speaker_item_name_text</item>
+        <item name="android:textColor">@color/sesjaSecond</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SpeakerCardExpand"></style>
+    <style name="SpeakerCardExpandDesc">
+        <item name="android:textColor">@color/appBackgroundWhite</item>
+    </style>
+
+    <!-- LECTURES -->
+    <style name="LectureCardList"></style>
+    <style name="LectureCardItemTitle">
+        <item name="android:textSize">@dimen/speaker_item_name_text</item>
+        <item name="android:textColor">@color/sesjaSecond</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/backgroundLectureTitle</item>
+    </style>
+    <style name="LectureCardItemHoursPlace">
+        <item name="android:layout_marginTop">@dimen/lecture_item_hours_margin</item>
+        <item name="android:layout_marginBottom">@dimen/lecture_item_hours_margin</item>
+    </style>
+    <style name="LectureCardItemStartHour">
+        <item name="android:textSize">@dimen/lecture_item_hours</item>
+    </style>
+    <style name="LectureCardItemEndHour">
+        <item name="android:textSize">@dimen/lecture_item_hours</item>
+    </style>
+    <style name="LectureCardItemPlace">
+        <item name="android:textSize">@dimen/lecture_item_place</item>
+    </style>
+    <style name="LectureCardItemSpeakers">
+        <item name="android:textSize">@dimen/lecture_item_speakers</item>
+        <item name="android:textColor">@color/fontColorSecondary</item>
+    </style>
+
+    <!-- PARTNERS -->
+    <style name="PartnerCardList"></style>
+    <style name="PartnerCard">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="PartnerCardType">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/sesjaSecond</item>
+        <item name="android:textSize">@dimen/partner_name</item>
+        <item name="android:background">@color/backgroundLectureTitle</item>
+    </style>
+    <style name="PartnerCardImage">
+        <item name="android:paddingTop">@dimen/partner_image_padding</item>
+    </style>
+    <style name="PartnerCardDesc">
+        <item name="android:textColor">@color/sesjaSecond</item>
+    </style>
+
+
+</resources>

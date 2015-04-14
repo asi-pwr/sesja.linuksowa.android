@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Sesja Linuksowa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Prelegenci</item>
+        <item>div</item>
+        <item>Niedziela</item>
+        <item>Sobota</item>
+        <item>div</item>
+        <item>Partnerzy</item>
+    </string-array>
+
+    <string-array name="partners_type">
+        <item>Złoty sponsor</item>
+        <item>Srebrny sponsor</item>
+        <item>Brązowy sponsor</item>
+        <item>Patron medialny</item>
+    </string-array>
+    <string-array name="place_type">
+        <item>Duża sala</item>
+        <item>Mała sala</item>
+    </string-array>
+
+</resources>

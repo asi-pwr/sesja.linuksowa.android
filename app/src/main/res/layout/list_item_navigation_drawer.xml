@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/NavigationDrawerListItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        style="@style/NavigationDrawerListItemIcon"
+        android:layout_width="@dimen/navigation_drawer_list_item_icon_width"
+        android:layout_height="@dimen/navigation_drawer_list_item_icon_height"
+        android:id="@+id/rowIcon"
+        />
+
+    <TextView
+        style="@style/NavigationDrawerListItemTitle"
+        android:id="@+id/rowText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

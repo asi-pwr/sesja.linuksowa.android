@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/SpeakerCardImage"
+        android:id="@+id/speakerCardImage"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/speaker_item_photo_height" />
+
+    <LinearLayout
+        style="@style/SpeakerCardTextParent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/SpeakerCardName"
+            android:id="@+id/speakerCardName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/SpeakerCardSurname"
+            android:id="@+id/speakerCardSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

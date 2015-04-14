@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimary">#ececec</color>
+    <color name="ColorPrimaryDark">#424242</color>
+
+    <color name="backgroundDrawerHeader">#BDBDBD</color>
+
+    <color name="appBackgroundWhite">#ececec</color>
+    <color name="fontColorSecondary">#212922</color>
+
+    <color name="backgroundLectureTitle">#E0E0E0</color>
+
+    <color name="sesjaFirst">#DBA100</color>
+    <color name="sesjaSecond">#323f49</color>
+
+</resources>

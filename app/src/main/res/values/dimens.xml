@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NAVIGATION DRAWER -->
+    <dimen name="navigation_drawer_list_header_height">178dp</dimen>
+    <dimen name="navigation_drawer_list_item_margin_bottom">7dp</dimen>
+    <dimen name="navigation_drawer_list_item_margin_top">7dp</dimen>
+    <dimen name="navigation_drawer_list_divider_height">2dp</dimen>
+    <dimen name="navigation_drawer_list_item_icon_height">30dp</dimen>
+    <dimen name="navigation_drawer_list_item_icon_width">50dp</dimen>
+    <dimen name="navigation_drawer_list_item_icon_margin_bottom">5dp</dimen>
+    <dimen name="navigation_drawer_list_item_icon_margin_top">5dp</dimen>
+    <dimen name="navigation_drawer_list_item_icon_margin_left">5dp</dimen>
+    <dimen name="navigation_drawer_list_item_title_margin">5dp</dimen>
+    <dimen name="navigation_drawer_list_item_title_text">18sp</dimen>
+    <dimen name="drawer_width">250dp</dimen>
+
+    <!-- SPEAKERS -->
+    <dimen name="speaker_item_photo_width">250dp</dimen>
+    <dimen name="speaker_item_photo_height">140dp</dimen>
+    <dimen name="speaker_item_name_text">20sp</dimen>
+    <!-- LECTURES -->
+    <dimen name="lecture_item_name_title">18sp</dimen>
+    <dimen name="lecture_item_hours">16sp</dimen>
+    <dimen name="lecture_item_place">16sp</dimen>
+    <dimen name="lecture_item_speakers">18sp</dimen>
+    <dimen name="lecture_item_hours_margin">3dp</dimen>
+    <!-- PARTNERS -->
+    <dimen name="partner_name">18sp</dimen>
+    <dimen name="partner_image_padding">5dp</dimen>
+
+
+</resources>
